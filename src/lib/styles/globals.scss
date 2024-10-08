@@ -1,0 +1,43 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0px;
+	padding: 0;
+	background-color: #fff;
+	overflow: hidden;
+
+	color: #020202;
+	font-family: 'Inter', sans-serif;
+}
+
+h1 {
+	// line-height: 0;
+	margin: 0;
+}
+
+a {
+	color: #020202;
+	text-decoration: none;
+}
+
+.bg-container {
+	background-image: url('/bg-wave.svg');
+	background-size: cover;
+	background-position: center;
+	z-index: 2;
+}
+
+.blue-extension {
+	height: 15vh;
+	background-color: #043ba4;
+	overflow: hidden;
+}
+
+.white-extension {
+	height: 15vh;
+	background-color: #ffffff;
+	overflow: hidden;
+	z-index: 0 !important;
+}
